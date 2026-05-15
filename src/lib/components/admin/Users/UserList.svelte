@@ -495,7 +495,7 @@
 	{/if}
 {/if}
 
-{#if !$config?.license_metadata}
+{#if false && !$config?.license_metadata}
 	{#if total > 50}
 		<div class="text-sm">
 			<Markdown
